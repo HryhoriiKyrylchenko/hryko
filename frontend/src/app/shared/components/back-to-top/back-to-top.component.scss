@@ -1,0 +1,38 @@
+@use 'breakpoints' as *;
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.to-top {
+  display: inline-flex;
+  width: 100%;
+  padding: 1.25rem 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+  background: var(--bg-surface);
+  color: var(--link-color);
+  opacity: 0.8;
+  transition: opacity 0.2s, background 0.2s, color 0.2s;
+  position: relative;
+  z-index: 1;
+}
+.to-top:hover {
+  opacity: 1;
+  background: var(--bg-hover);
+  color: var(--link-hover);
+}
+
+.to-top {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@include md {
+  .to-top {
+    font-size: 1.5rem;
+  }
+}

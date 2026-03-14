@@ -1,0 +1,30 @@
+{
+  "header": {
+    "nav": {
+      "blog": "Blog",
+      "about": "O nas",
+      "help": "Pomoc",
+      "topics": {
+        "button": "Tematy",
+        "strategies": "Strategie",
+        "concepts": "Koncepcje",
+        "risk-management": "Zarządzanie ryzykiem",
+        "tools": "Narzędzia",
+        "market-analysis": "Analiza rynku"
+      }
+    }
+  },
+  "footer": {
+    "rights-reserved": "Wszelkie prawa zastrzeżone.",
+    "button-back-to-top": "Powrót do góry",
+    "disclaimer": "Ten serwis udostępnia informacje związane z rynkami kryptowalut, koncepcjami handlu algorytmicznego oraz strategiami. Przedstawione treści odzwierciedlają osobiste opinie i subiektywne obserwacje. Nie należy ich interpretować jako porady finansowej, wskazówek inwestycyjnych ani rekomendacji do podejmowania jakichkolwiek działań finansowych. Przed podjęciem decyzji finansowych skonsultuj się z wykwalifikowanym doradcą finansowym. Wszystkie działania podejmowane na podstawie informacji z tego serwisu są wykonywane wyłącznie na własną odpowiedzialność.",
+    "links": {
+      "terms": "Regulamin",
+      "about": "O nas",
+      "privacy": "Prywatność",
+      "help": "Pomoc",
+      "cookies": "Pliki cookie",
+      "contact": "Kontakt"
+    }
+  }
+}

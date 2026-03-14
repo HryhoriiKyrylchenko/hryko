@@ -1,0 +1,79 @@
+.lang-switcher-container {
+  position: relative;
+}
+
+.lang-button {
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  border: 1px solid var(--border-primary);
+  background: var(--bg-surface);
+
+  padding: 6px 10px;
+  border-radius: 6px;
+
+  cursor: pointer;
+  font-size: 14px;
+
+  color: var(--text-primary);
+
+  transition: background 0.2s;
+
+  &:hover {
+    background: var(--bg-hover);
+  }
+
+}
+
+.arrow {
+  transition: transform 0.2s;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.lang-menu {
+
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  background: var(--bg-surface);
+  border: 1px solid var(--border-primary);
+  border-radius: 8px;
+
+  min-width: 160px;
+
+  list-style: none;
+  padding: 6px;
+  margin: 0;
+
+  box-shadow: var(--shadow-md);
+
+}
+
+.lang-menu li {
+
+  padding: 8px 10px;
+  border-radius: 6px;
+
+  display: flex;
+  justify-content: space-between;
+
+  cursor: pointer;
+
+}
+
+.lang-menu li:hover {
+  background: var(--bg-hover);
+}
+
+.lang-menu li.active {
+  font-weight: 600;
+}

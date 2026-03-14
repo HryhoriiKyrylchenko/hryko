@@ -1,0 +1,84 @@
+@use 'colors' as *;
+@use 'spacing' as *;
+@use 'variables' as *;
+@use 'mixins' as *;
+@use 'breakpoints' as *;
+
+/* ========================
+   RESET
+   ======================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main), sans-serif;
+  font-size: var(--text-base);
+  background: var(--bg-main);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+/* ========================
+   CONTAINER
+   ======================== */
+
+.container {
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: var(--layout-padding);
+  padding-right: var(--layout-padding);
+
+}
+
+/* ========================
+   LINKS
+   ======================== */
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+/* ========================
+   BUTTON BASE
+   ======================== */
+
+button {
+  border: none;
+  cursor: pointer;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+}
+
+.btn-primary {
+  background: var(--btn-primary-bg);
+  color: var(--btn-primary-text);
+}
+
+.btn-primary:hover {
+  background: var(--btn-primary-hover);
+}
+
+/* ========================
+   CARDS
+   ======================== */
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-sm);
+}

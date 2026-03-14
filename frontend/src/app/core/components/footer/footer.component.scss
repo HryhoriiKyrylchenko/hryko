@@ -1,0 +1,135 @@
+@use 'mixins' as *;
+@use 'breakpoints' as *;
+
+.site-footer {
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border-primary);
+
+  display: flex;
+  flex-direction: column;
+
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 var(--space-md);
+}
+
+/* ========================
+   BACK TO TOP
+   ======================== */
+
+.footer-top {
+  border-bottom: 1px solid var(--border-primary);
+
+  display: flex;
+  justify-content: center;
+}
+
+/* ========================
+   MAIN AREA
+   ======================== */
+
+.footer-main {
+  display: grid;
+
+  grid-template-columns: auto 1fr;
+
+  gap: var(--space-xl);
+
+  align-items: center;
+
+  padding: var(--space-xl) 0;
+}
+
+/* logo */
+
+.footer-logo {
+  color: var(--text-muted);
+}
+
+/* links */
+
+.footer-links {
+  display: grid;
+
+  grid-template-columns: repeat(2, auto);
+
+  gap: var(--space-sm) var(--space-lg);
+
+  justify-content: center;
+}
+
+.footer-links a {
+  color: var(--text-secondary);
+
+  font-size: var(--text-sm);
+
+  text-decoration: none;
+
+  transition: color var(--transition-fast);
+}
+
+.footer-links a:hover {
+  color: var(--link-hover);
+}
+
+/* ========================
+   BOTTOM
+   ======================== */
+
+.footer-bottom {
+  border-top: 1px solid var(--border-primary);
+
+  padding: var(--space-lg) 0;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: var(--space-md);
+}
+
+.footer-copyright {
+  font-size: var(--text-sm);
+
+  color: var(--text-muted);
+}
+
+.footer-disclaimer {
+  font-size: var(--text-xs);
+
+  color: var(--text-muted);
+
+  line-height: 1.5;
+
+  max-width: 900px;
+}
+
+/* ========================
+   RESPONSIVE
+   ======================== */
+
+@include md {
+  .footer-main {
+    grid-template-columns: auto auto;
+
+    justify-content: space-between;
+  }
+
+  .footer-links {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@include lg {
+  .footer-bottom {
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    align-items: flex-start;
+  }
+}

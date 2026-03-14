@@ -1,1 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+/* Angular Material */
+@use '@angular/material' as mat;
+
+/* Design system */
+@use 'styles/global';
+
+/* ================================
+   Angular Material Theme
+   ================================ */
+
+/* Define theme */
+$theme: mat.define-theme((
+  color: (
+    theme-type: light,
+    primary: mat.$azure-palette,
+    tertiary: mat.$blue-palette,
+  ),
+  typography: (
+    brand-family: 'Inter',
+    plain-family: 'Inter',
+  ),
+  density: (
+    scale: 0
+  )
+));
+
+/* Apply theme */
+html {
+  @include mat.all-component-themes($theme);
+}
+
+/* ================================
+   Global reset
+   ================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ================================
+   Base layout
+   ================================ */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  background: var(--bg-main);
+  color: var(--text-primary);
+
+  font-family: var(--font-main), sans-serif;
+}
+
+/* ================================
+   Angular layout structure
+   ================================ */
+
+app-root,
+app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}

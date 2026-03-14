@@ -1,0 +1,30 @@
+{
+  "header": {
+    "nav": {
+      "blog": "Blog",
+      "about": "About",
+      "help": "Help",
+      "topics": {
+        "button": "Topics",
+        "strategies": "Strategies",
+        "concepts": "Concepts",
+        "risk-management": "Risk Management",
+        "tools": "Tools",
+        "market-analysis": "Market Analysis"
+      }
+    }
+  },
+  "footer": {
+    "rights-reserved": "All rights reserved.",
+    "button-back-to-top": "Back to top",
+    "disclaimer": "This resource provides information related to cryptocurrency markets,algorithmic trading concepts, and strategies. The content presented here reflects personal opinions and subjective observations. It should not be interpreted as financial advice, investment guidance, or a recommendation to perform any financial action. Before making financial decisions, consult a qualified financial advisor. All actions taken based on information from this resource are performed solely at your own responsibility.",
+    "links": {
+      "terms": "Terms",
+      "about": "About",
+      "privacy": "Privacy",
+      "help": "Help",
+      "cookies": "Cookies",
+      "contact": "Contact"
+    }
+  }
+}

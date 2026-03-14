@@ -1,0 +1,121 @@
+:root {
+
+  /* =========================
+     BRAND COLORS
+     ========================= */
+
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-primary-active: #1e40af;
+
+  --color-secondary: #6366f1;
+  --color-secondary-hover: #4f46e5;
+  --color-secondary-active: #4338ca;
+
+  --color-accent: #f59e0b;
+  --color-accent-hover: #d97706;
+
+  /* =========================
+     SEMANTIC COLORS
+     ========================= */
+
+  --color-success: #10b981;
+  --color-success-hover: #059669;
+
+  --color-danger: #ef4444;
+  --color-danger-hover: #dc2626;
+
+  --color-warning: #f59e0b;
+  --color-info: #0ea5e9;
+
+  /* =========================
+     BACKGROUND SYSTEM
+     ========================= */
+
+  --bg-main: #0b1220;
+  --bg-surface: #0f172a;
+  --bg-card: #111827;
+  --bg-hover: #1f2937;
+  --bg-active: #374151;
+
+  --bg-overlay: rgba(0,0,0,0.6);
+
+  /* =========================
+     TEXT COLORS
+     ========================= */
+
+  --text-primary: #e5e7eb;
+  --text-secondary: #cbd5f5;
+  --text-muted: #9ca3af;
+  --text-disabled: #6b7280;
+
+  --text-inverse: #0b1220;
+
+  /* =========================
+     BORDER / DIVIDERS
+     ========================= */
+
+  --border-primary: #1f2937;
+  --border-secondary: #374151;
+  --border-focus: #2563eb;
+
+  /* =========================
+     LINKS
+     ========================= */
+
+  --link-color: #60a5fa;
+  --link-hover: #93c5fd;
+  --link-active: #bfdbfe;
+
+  /* =========================
+     BUTTONS
+     ========================= */
+
+  --btn-primary-bg: var(--color-primary);
+  --btn-primary-hover: var(--color-primary-hover);
+  --btn-primary-active: var(--color-primary-active);
+  --btn-primary-text: #ffffff;
+
+  --btn-secondary-bg: #1f2937;
+  --btn-secondary-hover: #374151;
+  --btn-secondary-text: var(--text-primary);
+
+  /* =========================
+     INPUTS
+     ========================= */
+
+  --input-bg: #020617;
+  --input-border: #1f2937;
+  --input-focus-border: #2563eb;
+  --input-text: #e5e7eb;
+  --input-placeholder: #6b7280;
+
+  /* =========================
+     GRADIENTS
+     ========================= */
+
+  --gradient-brand: linear-gradient(135deg,#2563eb 0%,#6366f1 100%);
+  --gradient-brand-soft: linear-gradient(135deg,#1d4ed8 0%,#4f46e5 100%);
+  --gradient-accent: linear-gradient(135deg,#f59e0b,#f97316);
+
+  /* =========================
+     CHART / TRADING COLORS
+     ========================= */
+
+  --chart-grid: #1f2937;
+
+  --candle-up: #22c55e;
+  --candle-down: #ef4444;
+
+  --chart-line-primary: #3b82f6;
+  --chart-line-secondary: #8b5cf6;
+
+  /* =========================
+     SHADOWS
+     ========================= */
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.25);
+  --shadow-md: 0 4px 10px rgba(0,0,0,0.35);
+  --shadow-lg: 0 10px 25px rgba(0,0,0,0.45);
+
+}

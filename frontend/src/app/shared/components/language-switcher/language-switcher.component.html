@@ -1,0 +1,37 @@
+<div class="lang-switcher-container">
+
+  <button
+    class="lang-button"
+    (click)="toggleMenu()"
+    [attr.aria-expanded]="isOpen()"
+    aria-label="Switch language"
+  >
+    {{ getLanguageName(currentLang()) }}
+    <span class="arrow" [class.open]="isOpen()">▾</span>
+  </button>
+
+  @if (isOpen()) {
+
+    <ul class="lang-menu">
+
+      @for (lang of languages; track lang.code) {
+
+        <li
+          (click)="selectLanguage(lang.code)"
+          [class.active]="isActive(lang.code)"
+        >
+          {{ lang.name }}
+
+          @if (isActive(lang.code)) {
+            <span class="check">✓</span>
+          }
+
+        </li>
+
+      }
+
+    </ul>
+
+  }
+
+</div>
