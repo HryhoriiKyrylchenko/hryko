@@ -1,0 +1,39 @@
+{
+  "sections": [
+    {
+      "title": "contact.content.general_inquiries.title",
+      "paragraphs": [
+        "contact.content.general_inquiries.p1",
+        "contact.content.general_inquiries.p2"
+      ]
+    },
+    {
+      "title": "contact.content.contact_details.title",
+      "paragraphs": [
+        "contact.content.contact_details.p1",
+        "contact.content.contact_details.p2"
+      ]
+    },
+    {
+      "title": "contact.content.communication.title",
+      "paragraphs": [
+        "contact.content.communication.p1",
+        "contact.content.communication.p2"
+      ]
+    },
+    {
+      "title": "contact.content.disclaimer.title",
+      "paragraphs": [
+        "contact.content.disclaimer.p1",
+        "contact.content.disclaimer.p2"
+      ]
+    },
+    {
+      "title": "contact.content.contact_details.title",
+      "paragraphs": [
+        "contact.content.notice.p1",
+        "contact.content.notice.p2"
+      ]
+    }
+  ]
+}

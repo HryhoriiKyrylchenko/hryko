@@ -1,0 +1,72 @@
+{
+  "sections": [
+    {
+      "title": "faq.general.title",
+      "questions": [
+        {
+          "q": "faq.general.what_is_crypto",
+          "a": "faq.general.what_is_crypto.answer"
+        },
+        {
+          "q": "faq.general.is_it_safe",
+          "a": "faq.general.is_it_safe.answer"
+        },
+        {
+          "q": "faq.general.resources",
+          "a": "faq.general.resources.answer"
+        }
+      ]
+    },
+    {
+      "title": "faq.strategies.title",
+      "questions": [
+        {
+          "q": "faq.strategies.what_are",
+          "a": "faq.strategies.what_are.answer"
+        },
+        {
+          "q": "faq.strategies.types",
+          "a": "faq.strategies.types.answer"
+        },
+        {
+          "q": "faq.strategies.backtesting",
+          "a": "faq.strategies.backtesting.answer"
+        }
+      ]
+    },
+    {
+      "title": "faq.algo.title",
+      "questions": [
+        {
+          "q": "faq.algo.what_is",
+          "a": "faq.algo.what_is.answer"
+        },
+        {
+          "q": "faq.algo.how_it_works",
+          "a": "faq.algo.how_it_works.answer"
+        },
+        {
+          "q": "faq.algo.risks",
+          "a": "faq.algo.risks.answer"
+        }
+      ]
+    },
+    {
+      "title": "faq.learning.title",
+      "questions": [
+        {
+          "q": "faq.learning.courses",
+          "a": "faq.learning.courses.answer"
+        },
+        {
+          "q": "faq.learning.blog",
+          "a": "faq.learning.blog.answer"
+        },
+        {
+          "q": "faq.learning.tools",
+          "a": "faq.learning.tools.answer"
+        }
+      ]
+    }
+  ]
+}

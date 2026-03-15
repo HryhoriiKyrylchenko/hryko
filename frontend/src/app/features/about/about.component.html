@@ -1,0 +1,45 @@
+@if (page$ | async; as page) {
+  <section class="hero">
+    <h1>{{ page.hero.title | transloco }}</h1>
+    <p>{{ page.hero.subtitle | transloco }}</p>
+  </section>
+
+  <section class="section">
+    <h2>{{ page.mission.title | transloco }}</h2>
+
+    @for (p of page.mission.paragraphs; track p) {
+      <p>{{ p | transloco }}</p>
+    }
+  </section>
+
+  <section class="section">
+    <h2>{{ page.platform.title | transloco }}</h2>
+
+    @for (p of page.platform.paragraphs; track p) {
+      <p>{{ p | transloco }}</p>
+    }
+  </section>
+
+  <section class="section">
+    <h2>{{ page.features.title | transloco }}</h2>
+
+    <div class="features">
+
+      @for (f of page.features.items; track f.title) {
+        <div class="feature-card">
+          <h3>{{ f.title | transloco }}</h3>
+          <p>{{ f.description | transloco }}</p>
+        </div>
+      }
+
+    </div>
+  </section>
+
+  <section class="section disclaimer">
+    <h2>{{ page.disclaimer.title | transloco }}</h2>
+
+    @for (p of page.disclaimer.paragraphs; track p) {
+      <p>{{ p | transloco }}</p>
+    }
+  </section>
+}

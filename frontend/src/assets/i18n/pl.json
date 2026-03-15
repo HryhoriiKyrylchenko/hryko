@@ -26,5 +26,320 @@
       "cookies": "Pliki cookie",
       "contact": "Kontakt"
     }
+  },
+  "error": {
+    "404": {
+      "title": "Strona nie znaleziona",
+      "description": "Strona, której szukasz, nie istnieje.",
+      "home": "Powrót do strony głównej"
+    }
+  },
+  "cookies": {
+    "page_title": "Polityka plików cookie",
+    "page_description": "Ta polityka wyjaśnia, w jaki sposób pliki cookie są używane na tej stronie.",
+    "content": {
+      "introduction": {
+        "title": "Wprowadzenie",
+        "p1": "Ta strona internetowa hryko.com („Strona”) używa plików cookie oraz podobnych technologii w celu zapewnienia jej prawidłowego działania. Wszystkie przechowywane dane — takie jak pliki cookie oraz local storage — są ściśle niezbędne do funkcjonowania tej strony."
+      },
+      "what-are": {
+        "title": "Czym są pliki cookie?",
+        "p1": "Pliki cookie to niewielkie pliki tekstowe zapisywane w przeglądarce, które umożliwiają podstawowe funkcje, takie jak utrzymywanie sesji oraz ustawienia językowe. Local storage przechowuje również preferencje, takie jak „preferred-language” (en/pl/ru/uk)."
+      },
+      "usage": {
+        "title": "Jak używamy plików cookie",
+        "p1": "Używamy wyłącznie minimalnych i niezbędnych mechanizmów przechowywania danych."
+      },
+      "types": {
+        "title": "Rodzaje plików cookie",
+        "p1": "Niezbędne pliki cookie i mechanizmy przechowywania: są konieczne do działania strony. Obejmują one pliki cookie ustawiane przez przeglądarkę, takie jak „cookie_consent”, oraz klucz local storage „preferred-language”. Bez nich strona nie działałaby prawidłowo. Korzystanie ze strony oznacza zgodę na ich użycie."
+      },
+      "manage": {
+        "title": "Jak zarządzać plikami cookie",
+        "p1": "Te niezbędne pliki cookie oraz ustawienia nie mogą zostać wyłączone bez wpływu na funkcjonalność strony. Możesz je usunąć w ustawieniach przeglądarki, jednak po ich usunięciu strona może nie działać poprawnie."
+      },
+      "changes": {
+        "title": "Zmiany",
+        "p1": "Niniejsza polityka może być okresowo aktualizowana. Prosimy o ponowne odwiedzanie tej strony w celu zapoznania się ze zmianami."
+      }
+    },
+    "accept": "Akceptuję",
+    "learn_more": "Dowiedz się więcej o plikach cookie",
+    "title": "Używamy plików cookie",
+    "consent-text": "aby poprawić Twoje doświadczenie podczas korzystania z naszej strony. Kontynuując korzystanie ze strony, wyrażasz na to zgodę."
+  },
+  "privacy": {
+    "page_title": "Polityka prywatności",
+    "page_description": "Ta polityka wyjaśnia, w jaki sposób ta strona internetowa przetwarza dane i chroni prywatność użytkowników.",
+    "content": {
+      "introduction": {
+        "title": "Wprowadzenie",
+        "p1": "Niniejsza Polityka prywatności wyjaśnia, w jaki sposób strona internetowa hryko.com („Strona”) przetwarza informacje podczas jej odwiedzania. Strona ma charakter statyczny i nie zbiera aktywnie danych osobowych użytkowników."
+      },
+      "data_controller": {
+        "title": "Administrator danych",
+        "p1": "Administratorem danych dla tej strony jest właściciel hryko.com. Jeśli masz pytania dotyczące niniejszej Polityki prywatności, możesz skontaktować się z właścicielem strony za pomocą danych kontaktowych podanych na stronie."
+      },
+      "personal_data_collection": {
+        "title": "Gromadzenie danych osobowych",
+        "p1": "Strona nie oferuje kont użytkowników, formularzy kontaktowych, newsletterów ani innych funkcji wymagających podawania danych osobowych.",
+        "p2": "Strona nie gromadzi, nie przechowuje ani nie przetwarza celowo danych osobowych takich jak imię i nazwisko, adres e-mail, numer telefonu czy dane płatnicze."
+      },
+      "technical_data": {
+        "title": "Automatycznie przetwarzane dane techniczne",
+        "p1": "Podczas korzystania ze Strony pewne informacje techniczne mogą być automatycznie przetwarzane przez dostawcę hostingu. Mogą one obejmować adres IP, typ przeglądarki, informacje o urządzeniu oraz znaczniki czasu dostępu.",
+        "p2": "Dane te są przetwarzane wyłącznie w celu zapewnienia bezpieczeństwa serwera, zapobiegania nadużyciom oraz utrzymania prawidłowego działania strony. Właściciel strony nie uzyskuje bezpośredniego dostępu do tych danych ani nie wykorzystuje ich do śledzenia użytkowników."
+      },
+      "cookies_storage": {
+        "title": "Pliki cookie i local storage",
+        "p1": "Strona używa wyłącznie niezbędnych plików cookie oraz mechanizmów przechowywania danych w przeglądarce wymaganych do jej działania.",
+        "p2": "Mogą one obejmować wskaźnik zgody na pliki cookie („cookie_consent”) oraz klucz local storage przechowujący preferencję języka (np. „preferred-language”).",
+        "p3": "Mechanizmy te nie służą do śledzenia użytkowników, nie są wykorzystywane do celów reklamowych i nie udostępniają danych stronom trzecim."
+      },
+      "third_parties": {
+        "title": "Usługi podmiotów trzecich",
+        "p1": "Strona nie korzysta z narzędzi analitycznych firm trzecich, sieci reklamowych, pikseli śledzących ani integracji marketingowych.",
+        "p2": "Strona może być hostowana przez zewnętrznego dostawcę hostingu, który może przetwarzać dane techniczne w ramach świadczenia usług infrastrukturalnych."
+      },
+      "data_sharing": {
+        "title": "Udostępnianie danych",
+        "p1": "Właściciel strony nie sprzedaje, nie wymienia ani w żaden sposób nie przekazuje danych osobowych stronom trzecim.",
+        "p2": "Żadne dane osobowe nie są udostępniane w celach marketingowych, profilowania ani komercyjnych."
+      },
+      "data_retention": {
+        "title": "Przechowywanie danych",
+        "p1": "Ponieważ Strona nie gromadzi bezpośrednio danych osobowych, właściciel strony nie przechowuje takich danych.",
+        "p2": "Techniczne logi serwera, jeśli są generowane przez dostawcę hostingu, są przechowywane zgodnie z wewnętrznymi zasadami dostawcy."
+      },
+      "user_rights": {
+        "title": "Prawa użytkownika",
+        "p1": "Zgodnie z obowiązującymi przepisami o ochronie danych, w tym z Rozporządzeniem o Ochronie Danych Osobowych (RODO), użytkownicy mogą posiadać określone prawa dotyczące ich danych osobowych.",
+        "p2": "Ponieważ Strona nie gromadzi ani nie przetwarza bezpośrednio danych osobowych, większość tych praw może nie mieć praktycznego zastosowania. Użytkownicy mogą jednak skontaktować się z właścicielem strony w przypadku pytań dotyczących prywatności."
+      },
+      "security": {
+        "title": "Bezpieczeństwo danych",
+        "p1": "Strona korzysta ze standardowych środków bezpieczeństwa zapewnianych przez dostawcę hostingu w celu ochrony przed nieautoryzowanym dostępem, zmianą, ujawnieniem lub zniszczeniem danych."
+      },
+      "changes": {
+        "title": "Zmiany w niniejszej polityce prywatności",
+        "p1": "Niniejsza Polityka prywatności może być okresowo aktualizowana w celu odzwierciedlenia zmian prawnych lub technicznych. Wszelkie aktualizacje będą publikowane na tej stronie."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "p1": "Jeśli masz pytania dotyczące niniejszej Polityki prywatności, możesz skontaktować się z właścicielem strony, korzystając z danych kontaktowych podanych na stronie."
+      }
+    }
+  },
+  "terms": {
+    "page_title": "Warunki korzystania",
+    "page_description": "Niniejsza polityka wyjaśnia warunki i zasady, na jakich działa strona internetowa hryko.com („Strona”).",
+    "content": {
+      "introduction": {
+        "title": "Data wejścia w życie: 15.03.2026",
+        "p1": "Witamy na naszej stronie internetowej. Uzyskując dostęp do tej strony lub korzystając z niej, zgadzasz się przestrzegać niniejszych Warunków korzystania. Jeśli nie zgadzasz się z tymi warunkami, prosimy nie korzystać z tej strony."
+      },
+      "operator": {
+        "title": "Operator strony",
+        "p1": "Strona internetowa jest prowadzona przez:",
+        "p2": "  - Operator: Hryhorii Kyrylchenko",
+        "p3": "  - E-mail kontaktowy: hryko.contact@gmail.com",
+        "p4": "  - Strona kontaktowa: https://hryko.com/contact",
+        "p5": "Uwaga: Obecnie Operator jest osobą prywatną udostępniającą treści informacyjne. Za pośrednictwem tej strony nie jest prowadzona działalność gospodarcza w rozumieniu polskiej ustawy Prawo przedsiębiorców."
+      },
+      "purpose": {
+        "title": "Cel strony",
+        "p1": "Strona internetowa zawiera treści informacyjne, analizy oraz komentarze dotyczące rynków kryptowalut, koncepcji handlu algorytmicznego oraz strategii inwestycyjnych.",
+        "p2": "Publikowane treści mają wyłącznie charakter ogólnych informacji."
+      },
+      "no_advise": {
+        "title": "Brak porady finansowej",
+        "p1": "Ważne: wszystkie informacje prezentowane na tej stronie:",
+        "p2": "  - Odzwierciedlają osobiste opinie, obserwacje i analizy Operatora",
+        "p3": "  - Nie stanowią porady finansowej, rekomendacji inwestycyjnej ani analizy finansowej w rozumieniu Rozporządzenia UE nr 596/2014 (Market Abuse Regulation) ani Dyrektywy 2014/65/UE (MiFID II)",
+        "p4": "  - Nie zastępują profesjonalnej porady finansowej, podatkowej ani prawnej",
+        "p5": "  - Nie powinny być jedyną podstawą do podejmowania decyzji finansowych",
+        "p6": "Przed podjęciem jakichkolwiek decyzji finansowych, inwestycyjnych lub tradingowych należy skonsultować się z wykwalifikowanym doradcą, który zna Twoją sytuację finansową."
+      },
+      "risk": {
+        "title": "Świadomość ryzyka",
+        "p1": "Rynki kryptowalut i aktywów cyfrowych wiążą się z istotnym ryzykiem. Korzystając z tej strony, potwierdzasz, że:",
+        "p2": "  - Wszystkie decyzje inwestycyjne i tradingowe podejmujesz na własną odpowiedzialność",
+        "p3": "  - Bierzesz pełną odpowiedzialność za wszelkie zyski lub straty wynikające z Twoich działań",
+        "p4": "  - Wyniki osiągnięte w przeszłości nie gwarantują przyszłych rezultatów",
+        "p5": "  - Operator nie gwarantuje żadnych wyników, rezultatów ani zysków",
+        "p6": "  - Inwestowanie w kryptowaluty może prowadzić do całkowitej utraty kapitału",
+        "p7": "  - Operator nie ponosi odpowiedzialności za ewentualne błędy lub pominięcia w informacjach publikowanych na tej stronie"
+      },
+      "no_professional": {
+        "title": "Brak działalności profesjonalnej",
+        "p1": "Operator udostępnia treści jako osoba prywatna dzieląca się wiedzą i opiniami. Strona nie stanowi:",
+        "p2": "  - Regulowanej firmy inwestycyjnej ani instytucji finansowej",
+        "p3": "  - Oferty ani zaproszenia do kupna lub sprzedaży instrumentów finansowych",
+        "p4": "  - Profesjonalnej usługi doradztwa finansowego",
+        "p5": "Jeśli charakter strony zmieni się w przyszłości (np. pojawią się płatne usługi, newslettery lub działalność komercyjna), niniejsze Warunki zostaną odpowiednio zaktualizowane, a wymagane rejestracje prawne zostaną dokonane."
+      },
+      "limitation_liability": {
+        "title": "Ograniczenie odpowiedzialności",
+        "p1": "W maksymalnym zakresie dopuszczonym przez obowiązujące prawo, w tym Kodeks cywilny:",
+        "p2": "  - Operator nie ponosi odpowiedzialności za jakiekolwiek szkody bezpośrednie, pośrednie, przypadkowe, wynikowe lub karne wynikające z korzystania lub braku możliwości korzystania z tej strony",
+        "p3": "  - Dotyczy to w szczególności strat finansowych, utraty danych lub przerw w działalności",
+        "p4": "  - Korzystając ze strony akceptujesz, że poleganie na publikowanych treściach odbywa się na własne ryzyko",
+        "p5": "Uwaga dla konsumentów: powyższe ograniczenie odpowiedzialności nie obowiązuje w przypadku umyślnego działania lub rażącego niedbalstwa Operatora. Twoje ustawowe prawa konsumenckie pozostają nienaruszone."
+      },
+      "intellectual_property": {
+        "title": "Własność intelektualna",
+        "p1": "Wszystkie treści na tej stronie, w tym teksty, obrazy, grafiki oraz kod, stanowią własność intelektualną Operatora, o ile nie wskazano inaczej.",
+        "p2": "Nie wolno reprodukować, rozpowszechniać ani wykorzystywać tych treści w celach komercyjnych bez wyraźnej pisemnej zgody.",
+        "p3": "Możesz cytować lub udostępniać treści w celach osobistych, edukacyjnych lub niekomercyjnych pod warunkiem podania źródła (np. linku do oryginalnej strony)."
+      },
+      "links": {
+        "title": "Linki zewnętrzne",
+        "p1": "Strona może zawierać linki do stron internetowych lub zasobów podmiotów trzecich. Operator:",
+        "p2": "  - Nie kontroluje tych stron ani ich nie rekomenduje",
+        "p3": "  - Nie ponosi odpowiedzialności za ich treść, dokładność, praktyki prywatności ani bezpieczeństwo",
+        "p4": "  - Nie odpowiada za szkody wynikające z korzystania z takich linków",
+        "p5": "Korzystanie z linków zewnętrznych odbywa się na własne ryzyko."
+      },
+      "privacy_cookies": {
+        "title": "Prywatność i pliki cookie",
+        "p1": "Zapoznaj się z naszą oddzielną Polityką prywatności oraz Polityką plików cookie, aby zrozumieć, w jaki sposób gromadzimy, wykorzystujemy i przechowujemy informacje.",
+        "p2": "Korzystając z tej strony potwierdzasz, że zapoznałeś się z tymi politykami.",
+        "p3": "Operator przetwarza dane osobowe zgodnie z Rozporządzeniem (UE) 2016/679 (RODO) oraz ustawą z dnia 10 maja 2018 r. o ochronie danych osobowych.",
+        "p4": "W przypadku plików cookie innych niż niezbędne wymagana będzie uprzednia zgoda użytkownika."
+      },
+      "user_obligations": {
+        "title": "Obowiązki użytkownika",
+        "p1": "Korzystając z tej strony zobowiązujesz się:",
+        "p2": "  - Korzystać z niej zgodnie z obowiązującym prawem i dobrymi obyczajami",
+        "p3": "  - Nie przesyłać treści niezgodnych z prawem, szkodliwych, groźnych lub zniesławiających",
+        "p4": "  - Nie podejmować prób zakłócania działania ani bezpieczeństwa strony",
+        "p5": "  - Nie wykorzystywać strony do wysyłania niezamówionych wiadomości handlowych (spam)"
+      },
+      "changes": {
+        "title": "Zmiany w niniejszych warunkach",
+        "p1": "Operator może w dowolnym momencie zaktualizować niniejsze Warunki korzystania.",
+        "p2": "Zmiany wchodzą w życie natychmiast po ich opublikowaniu na stronie.",
+        "p3": "W przypadku istotnych zmian zostanie opublikowana odpowiednia informacja.",
+        "p4": "Dalsze korzystanie ze strony po wprowadzeniu zmian oznacza ich akceptację."
+      },
+      "law_jurisdiction": {
+        "title": "Prawo właściwe i rozstrzyganie sporów",
+        "p1": "Niniejsze Warunki korzystania podlegają prawu Rzeczypospolitej Polskiej oraz właściwym regulacjom Unii Europejskiej.",
+        "p2": "Wszelkie spory wynikające z tych Warunków podlegają wyłącznej jurysdykcji sądów Rzeczypospolitej Polskiej.",
+        "p3": "Jeżeli jesteś konsumentem, możesz również wnieść sprawę do sądu w kraju swojego miejsca zamieszkania (na terenie UE)."
+      },
+      "contact": {
+        "title": "Informacje kontaktowe",
+        "p1": "W przypadku pytań lub wątpliwości dotyczących niniejszych Warunków korzystania prosimy o kontakt:",
+        "p2": "  - E-mail: hryko.contact@gmail.com",
+        "p3": "  - Strona kontaktowa: https://hryko.com/contact",
+        "p4": "Odpowiemy na Twoje zapytanie tak szybko, jak będzie to możliwe."
+      }
+    }
+  },
+  "contact": {
+    "page_title": "Kontakt",
+    "page_description": "Ta strona zawiera informacje kontaktowe operatora strony.",
+    "content": {
+      "general_inquiries": {
+        "title": "Zapytania ogólne",
+        "p1": "Jeśli masz pytania dotyczące treści publikowanych na tej stronie, sugestie dotyczące przyszłych tematów lub inne ogólne zapytania — zapraszamy do kontaktu.",
+        "p2": "Preferowaną formą kontaktu z operatorem strony jest wiadomość e-mail."
+      },
+      "contact_details": {
+        "title": "Dane kontaktowe",
+        "p1": "Operator: Hryhorii Kyrylchenko",
+        "p2": "Email: hryko.contact@gmail.com"
+      },
+      "communication": {
+        "title": "Polityka komunikacji",
+        "p1": "Prosimy pamiętać, że odpowiedzi mogą nie być natychmiastowe. Strona jest prowadzona niezależnie, a wiadomości są sprawdzane okresowo.",
+        "p2": "Wiadomości zawierające spam, niezamówione oferty handlowe lub niepowiązane treści promocyjne mogą zostać zignorowane."
+      },
+      "disclaimer": {
+        "title": "Zastrzeżenie finansowe",
+        "p1": "Prosimy nie prosić o osobiste porady finansowe, sygnały tradingowe ani rekomendacje inwestycyjne.",
+        "p2": "Operator nie świadczy usług doradztwa finansowego, a żadna komunikacja nie powinna być interpretowana jako porada finansowa."
+      },
+      "notice": {
+        "title": "Informacja o bezpieczeństwie",
+        "p1": "Nie przesyłaj w wiadomościach e-mail ani formularzach kontaktowych wrażliwych danych osobowych, haseł, kluczy prywatnych ani poufnych informacji finansowych.",
+        "p2": "Operator nie ponosi odpowiedzialności za ryzyko związane z udostępnianiem takich informacji."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "O platformie",
+      "subtitle": "Badania i narzędzia do algorytmicznego handlu kryptowalutami"
+    },
+    "mission": {
+      "title": "Nasza misja",
+      "p1": "Naszym celem jest dostarczanie analiz i informacji dotyczących handlu algorytmicznego.",
+      "p2": "Skupiamy się na przejrzystości i badaniach, a nie na udzielaniu porad finansowych."
+    },
+    "platform": {
+      "title": "Co oferuje platforma",
+      "p1": "Platforma zawiera artykuły badawcze, analizy strategii oraz narzędzia do eksplorowania systemów tradingowych w świecie kryptowalut."
+    },
+    "features": {
+      "title": "Funkcje platformy",
+      "grid": {
+        "title": "Analiza strategii Grid",
+        "desc": "Badania oraz techniki optymalizacji botów tradingowych typu grid."
+      },
+      "analytics": {
+        "title": "Analityka strategii",
+        "desc": "Narzędzia i artykuły wyjaśniające metryki stosowane w handlu algorytmicznym."
+      },
+      "research": {
+        "title": "Treści informacyjne",
+        "desc": "Szczegółowe wpisy blogowe dotyczące algorytmów tradingowych i mechaniki rynku."
+      }
+    },
+    "disclaimer": {
+      "title": "Zastrzeżenie",
+      "p1": "Wszystkie treści na tej platformie mają charakter wyłącznie informacyjny i nie stanowią porady finansowej."
+    }
+  },
+  "faq": {
+    "page_title": "Pomoc & FAQ",
+    "page_description": "Znajdź odpowiedzi na najczęstsze pytania dotyczące kryptowalut, strategii tradingowych i handlu algorytmicznego.",
+    "general": {
+      "title": "Pytania ogólne",
+      "what_is_crypto": "Czym są kryptowaluty?",
+      "what_is_crypto.answer": "Kryptowaluta to cyfrowy aktyw wykorzystujący kryptografię i zdecentralizowane sieci. Umożliwia transakcje peer-to-peer bez centralnego organu nadzorującego.",
+      "is_it_safe": "Czy kryptowaluty są bezpieczne?",
+      "is_it_safe.answer": "Kryptowaluty są generalnie bezpieczne, jeśli korzystasz z zaufanych portfeli i giełd. Zawsze przestrzegaj zasad bezpieczeństwa i uważaj na oszustwa.",
+      "resources": "Gdzie znaleźć materiały do nauki o kryptowalutach?",
+      "resources.answer": "Możesz uczyć się z blogów, dokumentacji i tutoriali dotyczących kryptowalut oraz koncepcji tradingowych."
+    },
+    "strategies": {
+      "title": "Strategie tradingowe",
+      "what_are": "Czym są strategie tradingowe?",
+      "what_are.answer": "Strategie tradingowe to zdefiniowane plany wykorzystywane do otwierania i zamykania pozycji w oparciu o reguły i analizę rynku.",
+      "types": "Jakie są rodzaje strategii tradingowych?",
+      "types.answer": "Popularne strategie to podążanie za trendem, powrót do średniej, arbitraż i scalping.",
+      "backtesting": "Jaki jest cel backtestingu?",
+      "backtesting.answer": "Backtesting pozwala przetestować strategię na danych historycznych, aby ocenić jej skuteczność przed użyciem na żywym rynku."
+    },
+    "algo": {
+      "title": "Handel algorytmiczny",
+      "what_is": "Czym jest handel algorytmiczny?",
+      "what_is.answer": "Handel algorytmiczny wykorzystuje zautomatyzowane programy do realizacji transakcji w oparciu o zdefiniowane reguły i strategie.",
+      "how_it_works": "Jak to działa?",
+      "how_it_works.answer": "Algorytmy monitorują rynki, analizują dane i automatycznie składają zlecenia bez ręcznej interwencji.",
+      "risks": "Jakie są ryzyka handlu algorytmicznego?",
+      "risks.answer": "Handel algorytmiczny niesie ryzyko błędów oprogramowania, zmienności rynku i opóźnień w realizacji transakcji."
+    },
+    "learning": {
+      "title": "Nauka i zasoby",
+      "courses": "Gdzie znaleźć materiały edukacyjne?",
+      "courses.answer": "Wiele kursów online i tutoriali obejmuje tematykę kryptowalut, strategii tradingowych i handlu algorytmicznego.",
+      "blog": "Czy mogę używać tej platformy do własnych badań?",
+      "blog.answer": "Nasz blog zawiera artykuły o koncepcjach, strategiach i analizie rynków kryptowalut.",
+      "tools": "Jakie narzędzia mogę wykorzystać do tradingu?",
+      "tools.answer": "Przydatne narzędzia to oprogramowanie do tworzenia wykresów, platformy do backtestingu oraz dostęp API do giełd kryptowalut."
+    }
   }
 }

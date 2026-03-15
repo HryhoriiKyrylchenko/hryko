@@ -1,0 +1,17 @@
+@if (pageData$ | async; as pageData) {
+  <div class="static-page">
+    <h1 class="title">
+      {{ keyTitle$ | async | transloco }}
+    </h1>
+
+    @for (sec of pageData.sections; track sec.title) {
+      <section>
+        <h2>{{ sec.title | transloco }}</h2>
+
+        @for (p of sec.paragraphs; track p;) {
+          <p>{{ p | transloco }}</p>
+        }
+      </section>
+    }
+  </div>
+}

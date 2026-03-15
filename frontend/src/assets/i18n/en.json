@@ -26,5 +26,320 @@
       "cookies": "Cookies",
       "contact": "Contact"
     }
+  },
+  "error": {
+    "404": {
+      "title": "Page not found",
+      "description": "The page you are looking for does not exist.",
+      "home": "Back to homepage"
+    }
+  },
+  "cookies": {
+    "page_title": "Cookie Policy",
+    "page_description": "This policy explains how cookies are used on this site.",
+    "content": {
+      "introduction": {
+        "title": "Introduction",
+        "p1": "This website hryko.com (the \"Site\") uses cookies and similar technologies to ensure proper functioning. All data stored—such as cookies and local storage—is strictly necessary for the operation of this site."
+      },
+      "what-are": {
+        "title": "What are Cookies?",
+        "p1": "Cookies are small text files stored in your browser to enable key functionalities like sessions and language settings. Local storage also preserves preferences such as \"preferred-language\" (en/pl/ru/uk)."
+      },
+      "usage": {
+        "title": "How We Use Cookies",
+        "p1": "We use minimal, essential storage mechanisms only."
+      },
+      "types": {
+        "title": "Cookie Types",
+        "p1": "Essential cookies and storage: Necessary for site operation. These include browser-set cookies like “cookie_consent” and local storage key “preferred-language”. Without them, the site would not function properly. Consent is assumed through use of the site."
+      },
+      "manage": {
+        "title": "How to Manage Cookies",
+        "p1": "These essential cookies and settings cannot be disabled without impacting the site's functionality. You may clear them via your browser settings, but the site may not work correctly afterward."
+      },
+      "changes": {
+        "title": "Changes",
+        "p1": "This policy may be updated. Please revisit this page for any changes."
+      }
+    },
+    "accept": "Accept",
+    "learn_more": "Learn More About Cookies",
+    "title": "We use cookies",
+    "consent-text": "to improve your experience on our site. By continuing to use our site, you agree to this."
+  },
+  "privacy": {
+    "page_title": "Privacy Policy",
+    "page_description": "This policy explains how this website processes data and protects user privacy.",
+    "content": {
+      "introduction": {
+        "title": "Introduction",
+        "p1": "This Privacy Policy explains how the website hryko.com (the \"Site\") handles information when you visit it. This Site is a static website and does not actively collect personal data from users."
+      },
+      "data_controller": {
+        "title": "Data Controller",
+        "p1": "The data controller for this website is the owner of hryko.com. If you have any questions regarding this Privacy Policy, you may contact the website owner using the contact information provided on the Site."
+      },
+      "personal_data_collection": {
+        "title": "Personal Data Collection",
+        "p1": "This Site does not provide user accounts, contact forms, newsletters, or any interactive features that would require the submission of personal information.",
+        "p2": "The Site does not intentionally collect, store, or process personal data such as names, email addresses, phone numbers, or payment information."
+      },
+      "technical_data": {
+        "title": "Automatically Processed Technical Data",
+        "p1": "When you access the Site, certain technical information may be processed automatically by the hosting provider. This may include IP address, browser type, device information, and access timestamps.",
+        "p2": "Such data is processed solely for the purpose of ensuring server security, preventing abuse, and maintaining proper website operation. The website owner does not directly access or use this information for tracking or profiling purposes."
+      },
+      "cookies_storage": {
+        "title": "Cookies and Local Storage",
+        "p1": "The Site uses only essential cookies and browser storage mechanisms necessary for its operation.",
+        "p2": "These may include a cookie consent indicator (\"cookie_consent\"), and a local storage key for a language preference (such as \"preferred-language\").",
+        "p3": "These storage mechanisms do not track users, are not used for advertising purposes, and do not share data with third parties."
+      },
+      "third_parties": {
+        "title": "Third-Party Services",
+        "p1": "The Site does not use third-party analytics tools, advertising networks, tracking pixels, or marketing integrations.",
+        "p2": "The website may be hosted by a third-party hosting provider, which may process technical data as part of its infrastructure services."
+      },
+      "data_sharing": {
+        "title": "Data Sharing",
+        "p1": "The website owner does not sell, trade, or otherwise transfer personal data to third parties.",
+        "p2": "No personal data is shared for marketing, profiling, or commercial purposes."
+      },
+      "data_retention": {
+        "title": "Data Retention",
+        "p1": "Because the Site does not collect personal data directly, no personal data is stored or retained by the website owner.",
+        "p2": "Technical server logs, if generated by the hosting provider, are retained according to the hosting provider’s internal policies."
+      },
+      "user_rights": {
+        "title": "User Rights",
+        "p1": "Under applicable data protection laws, including the General Data Protection Regulation (GDPR), users may have rights regarding their personal data.",
+        "p2": "Since this Site does not directly collect or process personal data, most data protection rights may not apply in practice. However, users may contact the website owner with any privacy-related inquiries."
+      },
+      "security": {
+        "title": "Data Security",
+        "p1": "The Site uses standard security practices provided by the hosting provider to protect against unauthorized access, alteration, disclosure, or destruction of data."
+      },
+      "changes": {
+        "title": "Changes to This Privacy Policy",
+        "p1": "This Privacy Policy may be updated from time to time to reflect legal or technical changes. Any updates will be published on this page."
+      },
+      "contact": {
+        "title": "Contact",
+        "p1": "If you have any questions about this Privacy Policy, you may contact the website owner using the contact details provided on the Site."
+      }
+    }
+  },
+  "terms": {
+    "page_title": "Terms of Use",
+    "page_description": "This policy explains the terms and conditions under which the website hryko.com (the \"Site\") operates.",
+    "content": {
+      "introduction": {
+        "title": "Effective Date: 15.03.2026",
+        "p1": "Welcome to our website. By accessing or using this website, you agree to comply with and be bound by these Terms of Use. If you do not agree with these terms, please do not use this website."
+      },
+      "operator": {
+        "title": "Website Operator",
+        "p1": "This website is operated by:",
+        "p2": "  - Operator: Hryhorii Kyrylchenko",
+        "p3": "  - Contact Email: hryko.contact@gmail.com",
+        "p4": "  - Contact Page: https://hryko.com/contact",
+        "p5": "Note: At this time, the Operator is a private individual providing informational content. No business activity within the meaning of the Polish Entrepreneurs' Law is currently conducted through this website."
+      },
+      "purpose": {
+        "title": "Purpose of the Website",
+        "p1": "This website provides informational content, insights, and commentary related to cryptocurrency markets, algorithmic trading concepts, and investment strategies.",
+        "p2": "The content is intended for general informational purposes only."
+      },
+      "no_advise": {
+        "title": "No Financial Advice",
+        "p1": "Important: All information presented on this website:",
+        "p2": "  - Reflects personal opinions, observations, and analysis of the Operator",
+        "p3": "  - Is not financial advice, investment recommendations, or financial analysis within the meaning of EU Regulation No 596/2014 (Market Abuse Regulation) or Directive 2014/65/EU (MiFID II)",
+        "p4": "  - Is not a substitute for professional financial, tax, or legal advice",
+        "p5": "  - Should not be used as the sole basis for any financial decision",
+        "p6": "Before making any financial, investment, or trading decisions, you should consult a qualified professional advisor who understands your personal financial situation."
+      },
+      "risk": {
+        "title": "Risk Acknowledgment",
+        "p1": "Cryptocurrency and digital asset markets carry significant risk. By using this website, you acknowledge that:",
+        "p2": "  - All trading and investment decisions are your own responsibility",
+        "p3": "  - You assume full responsibility for any gains or losses resulting from your actions",
+        "p4": "  - Past performance does not guarantee future results",
+        "p5": "  - The Operator does not guarantee any outcomes, results, or profits",
+        "p6": "  - Cryptocurrency investments can lead to total loss of capital",
+        "p7": "  - The Operator is not liable for any errors or omissions in the information provided on this website"
+      },
+      "no_professional": {
+        "title": "No Professional Activity",
+        "p1": "The Operator provides this content as an individual sharing knowledge and opinions. This website does not constitute:",
+        "p2": "  - A regulated investment firm or financial institution",
+        "p3": "  - An offering or solicitation to buy or sell financial instruments",
+        "p4": "  - Professional financial advisory services",
+        "p5": "If the nature of this website changes in the future (e.g., introduction of paid services, newsletters, or commercial activities), these Terms will be updated accordingly, and appropriate legal registrations will be obtained if required by law."
+      },
+      "limitation_liability": {
+        "title": "Limitation of Liability",
+        "p1": "To the fullest extent permitted by applicable law, including the Polish Civil Code:",
+        "p2": "  - The Operator shall not be held liable for any direct, indirect, incidental, consequential, or punitive damages arising out of your use of, or inability to use, this website",
+        "p3": "  - This includes, but is not limited to, financial losses, data loss, or business interruptions",
+        "p4": "  - By using this website, you accept that any reliance on the content is at your own risk",
+        "p5": "Note for Consumers: This limitation of liability does not apply in cases of intentional misconduct or gross negligence by the Operator. Your statutory rights as a consumer remain unaffected."
+      },
+      "intellectual_property": {
+        "title": "Intellectual Property",
+        "p1": "All content on this website, including text, images, graphics, and code, is the intellectual property of the Operator unless otherwise stated",
+        "p2": "You may not reproduce, distribute, or use the content for commercial purposes without explicit written permission",
+        "p3": "You may reference or share content for personal, educational, or non-commercial purposes with proper attribution (e.g., linking back to the original source)"
+      },
+      "links": {
+        "title": "External Links",
+        "p1": "This website may contain links to third-party websites or resources. The Operator:",
+        "p2": "  - Does not control or endorse these external sites",
+        "p3": "  - Is not responsible for their content, accuracy, privacy practices, or security",
+        "p4": "  - Is not liable for any damages or losses arising from your use of external links",
+        "p5": "Use external links at your own discretion and risk."
+      },
+      "privacy_cookies": {
+        "title": "Privacy & Cookies",
+        "p1": "Please review our separate Privacy Policy and Cookies Policy to understand how we collect, use, and store information",
+        "p2": "By using this website, you confirm that you have read and understood these policies",
+        "p3": "The Operator processes personal data in accordance with Regulation (EU) 2016/679 (GDPR) and the Polish Act of May 10, 2018, on the Protection of Personal Data",
+        "p4": "For non-essential cookies, your prior consent will be requested via a cookie consent tool"
+      },
+      "user_obligations": {
+        "title": "User Obligations",
+        "p1": "By using this website, you agree to:",
+        "p2": "  - Use the website in a manner consistent with applicable laws and good morals",
+        "p3": "  - Not upload or transmit any unlawful, harmful, threatening, or defamatory content",
+        "p4": "  - Not attempt to disrupt the website's operation or security",
+        "p5": "  - Not use the website to send unsolicited commercial communications (spam)"
+      },
+      "changes": {
+        "title": "Changes to These Terms",
+        "p1": "The Operator may update these Terms of Use at any time",
+        "p2": "Updates will be effective immediately upon posting on the website",
+        "p3": "If material changes are made, a notice will be posted on the website",
+        "p4": "Your continued use of the website after changes constitutes acceptance of the updated terms"
+      },
+      "law_jurisdiction": {
+        "title": "Governing Law and Dispute Resolution",
+        "p1": "These Terms of Use are governed by and interpreted in accordance with the laws of the Republic of Poland and applicable European Union regulations",
+        "p2": "Any disputes arising from these Terms shall be subject to the exclusive jurisdiction of the courts of the Republic of Poland",
+        "p3": "If you are a Consumer, you may also bring proceedings in the courts of your country of residence (within the EU)"
+      },
+      "contact": {
+        "title": "Contact Information",
+        "p1": "If you have any questions or concerns regarding these Terms of Use, please contact:",
+        "p2": "  - Email: hryko.contact@gmail.com",
+        "p3": "  - Contact Page: https://hryko.com/contact",
+        "p4": "We will respond to your inquiry as soon as reasonably possible."
+      }
+    }
+  },
+  "contact": {
+    "page_title": "Contact",
+    "page_description": "This page provides contact information for the website operator.",
+    "content": {
+      "general_inquiries": {
+        "title": "General Inquiries",
+        "p1": "If you have questions about the content published on this website, suggestions for future topics, or general inquiries, you are welcome to get in touch.",
+        "p2": "The preferred way to contact the website operator is via email."
+      },
+      "contact_details": {
+        "title": "Contact Details",
+        "p1": "Operator: Hryhorii Kyrylchenko",
+        "p2": "Email: hryko.contact@gmail.com"
+      },
+      "communication": {
+        "title": "Communication Policy",
+        "p1": "Please note that responses may not be immediate. This website is operated independently and messages are reviewed periodically.",
+        "p2": "Messages containing spam, unsolicited commercial offers, or unrelated promotional content may be ignored."
+      },
+      "disclaimer": {
+        "title": "Financial Disclaimer",
+        "p1": "Please do not request personal financial advice, trading signals, or investment recommendations.",
+        "p2": "The operator does not provide financial advisory services and any communication should not be interpreted as financial guidance."
+      },
+      "notice": {
+        "title": "Security Notice",
+        "p1": "Do not send sensitive personal information, passwords, private keys, or confidential financial data through email or contact forms.",
+        "p2": "The operator is not responsible for risks associated with sharing such information."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About the Platform",
+      "subtitle": "Research and tools for crypto algorithmic trading"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "p1": "Our goal is to provide informational insights into algorithmic trading.",
+      "p2": "We focus on transparency and research rather than financial advice."
+    },
+    "platform": {
+      "title": "What This Platform Provides",
+      "p1": "The platform contains research articles, strategy analysis, and tools for exploring crypto trading systems."
+    },
+    "features": {
+      "title": "Platform Features",
+      "grid": {
+        "title": "Grid Strategy Analysis",
+        "desc": "Research and optimization techniques for grid trading bots."
+      },
+      "analytics": {
+        "title": "Strategy Analytics",
+        "desc": "Tools and articles explaining algorithmic trading metrics."
+      },
+      "research": {
+        "title": "Informational Content",
+        "desc": "Detailed blog posts covering trading algorithms and market mechanics."
+      }
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "p1": "All content on this platform is for informational purposes only and does not constitute financial advice."
+    }
+  },
+  "faq": {
+    "page_title": "Help & FAQ",
+    "page_description": "Find answers to common questions about crypto, trading strategies, and algorithmic trading.",
+    "general": {
+      "title": "General Questions",
+      "what_is_crypto": "What is crypto?",
+      "what_is_crypto.answer": "Cryptocurrency is a digital asset using cryptography and decentralized networks. It allows peer-to-peer transactions without a central authority.",
+      "is_it_safe": "Is crypto safe?",
+      "is_it_safe.answer": "Crypto is generally secure if you use trusted wallets and exchanges. Always follow best security practices and be aware of scams.",
+      "resources": "Resources for learning crypto?",
+      "resources.answer": "You can learn more through blogs, documentation, and tutorials on crypto and trading concepts."
+    },
+    "strategies": {
+      "title": "Trading Strategies",
+      "what_are": "What are trading strategies?",
+      "what_are.answer": "Trading strategies are predefined plans used to enter and exit trades based on rules and market analysis.",
+      "types": "What are types of trading strategies?",
+      "types.answer": "Common strategies include trend-following, mean reversion, arbitrage, and scalping.",
+      "backtesting": "Purposes of backtesting?",
+      "backtesting.answer": "Backtesting allows you to test a strategy on historical data to evaluate performance before using it live."
+    },
+    "algo": {
+      "title": "Algorithmic Trading",
+      "what_is": "What is algorithmic trading?",
+      "what_is.answer": "Algorithmic trading uses automated programs to execute trades based on predefined rules and strategies.",
+      "how_it_works": "How it works?",
+      "how_it_works.answer": "Algorithms monitor markets, analyze data, and place trades automatically without manual intervention.",
+      "risks": "What are the risks of algorithmic trading?",
+      "risks.answer": "Algorithmic trading carries risks such as software errors, market volatility, and execution delays."
+    },
+    "learning": {
+      "title": "Learning & Resources",
+      "courses": "Where to find learning resources?",
+      "courses.answer": "Many online courses and tutorials cover crypto, trading strategies, and algo trading.",
+      "blog": "Can I use this platform for my own research?",
+      "blog.answer": "Our blog provides articles on concepts, strategies, and analysis of crypto markets.",
+      "tools": "What tools can I use for trading?",
+      "tools.answer": "Useful tools include charting software, backtesting platforms, and API access to crypto exchanges."
+    }
   }
 }

@@ -1,0 +1,24 @@
+@if (page$ | async; as faq) {
+  <div class="faq-page container">
+    <h1 class="title">{{ 'faq.page_title' | transloco }}</h1>
+
+    @for (section of faq.sections; track section.title) {
+      <section class="faq-section">
+        <h2 class="section-title">{{ section.title | transloco }}</h2>
+
+        @for (q of section.questions; track q.q) {
+          <div class="faq-item">
+            <button class="faq-question">
+              {{ q.q | transloco }}
+              <span class="arrow">▾</span>
+            </button>
+
+            <div class="faq-answer">
+              {{ q.a | transloco }}
+            </div>
+          </div>
+        }
+      </section>
+    }
+  </div>
+}

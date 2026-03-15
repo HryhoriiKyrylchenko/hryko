@@ -1,0 +1,133 @@
+{
+  "sections": [
+    {
+      "title": "terms.content.introduction.title",
+      "paragraphs": [
+        "terms.content.introduction.p1"
+      ]
+    },
+    {
+      "title": "terms.content.operator.title",
+      "paragraphs": [
+        "terms.content.operator.p1",
+        "terms.content.operator.p2",
+        "terms.content.operator.p3",
+        "terms.content.operator.p4",
+        "terms.content.operator.p5"
+      ]
+    },
+    {
+      "title": "terms.content.purpose.title",
+      "paragraphs": [
+        "terms.content.purpose.p1",
+        "terms.content.purpose.p2"
+      ]
+    },
+    {
+      "title": "terms.content.no_advise.title",
+      "paragraphs": [
+        "terms.content.no_advise.p1",
+        "terms.content.no_advise.p2",
+        "terms.content.no_advise.p3",
+        "terms.content.no_advise.p4",
+        "terms.content.no_advise.p5",
+        "terms.content.no_advise.p6"
+      ]
+    },
+    {
+      "title": "terms.content.risk.title",
+      "paragraphs": [
+        "terms.content.risk.p1",
+        "terms.content.risk.p2",
+        "terms.content.risk.p3",
+        "terms.content.risk.p4",
+        "terms.content.risk.p5",
+        "terms.content.risk.p6",
+        "terms.content.risk.p7"
+      ]
+    },
+    {
+      "title": "terms.content.no_professional.title",
+      "paragraphs": [
+        "terms.content.no_professional.p1",
+        "terms.content.no_professional.p2",
+        "terms.content.no_professional.p3",
+        "terms.content.no_professional.p4",
+        "terms.content.no_professional.p5"
+      ]
+    },
+    {
+      "title": "terms.content.limitation_liability.title",
+      "paragraphs": [
+        "terms.content.limitation_liability.p1",
+        "terms.content.limitation_liability.p2",
+        "terms.content.limitation_liability.p3",
+        "terms.content.limitation_liability.p4",
+        "terms.content.limitation_liability.p5"
+      ]
+    },
+    {
+      "title": "terms.content.intellectual_property.title",
+      "paragraphs": [
+        "terms.content.intellectual_property.p1",
+        "terms.content.intellectual_property.p2",
+        "terms.content.intellectual_property.p3"
+      ]
+    },
+    {
+      "title": "terms.content.links.title",
+      "paragraphs": [
+        "terms.content.links.p1",
+        "terms.content.links.p2",
+        "terms.content.links.p3",
+        "terms.content.links.p4",
+        "terms.content.links.p5"
+      ]
+    },
+    {
+      "title": "terms.content.privacy_cookies.title",
+      "paragraphs": [
+        "terms.content.privacy_cookies.p1",
+        "terms.content.privacy_cookies.p2",
+        "terms.content.privacy_cookies.p3",
+        "terms.content.privacy_cookies.p4"
+      ]
+    },
+    {
+      "title": "terms.content.user_obligations.title",
+      "paragraphs": [
+        "terms.content.user_obligations.p1",
+        "terms.content.user_obligations.p2",
+        "terms.content.user_obligations.p3",
+        "terms.content.user_obligations.p4",
+        "terms.content.user_obligations.p5"
+      ]
+    },
+    {
+      "title": "terms.content.changes.title",
+      "paragraphs": [
+        "terms.content.changes.p1",
+        "terms.content.changes.p2",
+        "terms.content.changes.p3",
+        "terms.content.changes.p4"
+      ]
+    },
+    {
+      "title": "terms.content.law_jurisdiction.title",
+      "paragraphs": [
+        "terms.content.law_jurisdiction.p1",
+        "terms.content.law_jurisdiction.p2",
+        "terms.content.law_jurisdiction.p3"
+      ]
+    },
+    {
+      "title": "terms.content.contact.title",
+      "paragraphs": [
+        "terms.content.contact.p1",
+        "terms.content.contact.p2",
+        "terms.content.contact.p3",
+        "terms.content.contact.p4"
+      ]
+    }
+  ]
+}
