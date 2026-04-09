@@ -27,6 +27,12 @@
       "contact": "Contact"
     }
   },
+  "blog": {
+    "title": "Blog",
+    "empty": "No posts found",
+    "min-read": "min read",
+    "post-empty": "No post found"
+  },
   "error": {
     "404": {
       "title": "Page not found",

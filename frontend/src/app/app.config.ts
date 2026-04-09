@@ -1,15 +1,18 @@
 import { ApplicationConfig, provideBrowserGlobalErrorListeners, isDevMode } from '@angular/core';
-import { provideRouter } from '@angular/router';
-
+import {provideRouter, withComponentInputBinding} from '@angular/router';
 import { routes } from './app.routes';
 import { provideHttpClient } from '@angular/common/http';
 import { TranslocoHttpLoader } from './transloco-loader';
 import { provideTransloco } from '@jsverse/transloco';
+import {provideMarkdown} from 'ngx-markdown';
 
 export const appConfig: ApplicationConfig = {
   providers: [
     provideBrowserGlobalErrorListeners(),
-    provideRouter(routes), provideHttpClient(), provideTransloco({
+    provideRouter(routes, withComponentInputBinding()),
+    provideHttpClient(),
+    provideMarkdown(),
+    provideTransloco({
         config: {
           availableLangs: ['en', 'pl', 'ru', 'uk'],
           defaultLang: 'en',

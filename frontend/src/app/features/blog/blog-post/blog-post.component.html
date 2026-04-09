@@ -1,0 +1,15 @@
+@if (post(); as p) {
+  <article class="blog-post">
+    <header>
+      <h1>{{ p.title }}</h1>
+      <div class="meta">
+        <time [dateTime]="p.date">{{ p.date }}</time>
+        <span>{{ p.readingTime }} {{ 'blog.min-read' | transloco }}</span>
+      </div>
+    </header>
+
+    <markdown [data]="p.content" />
+  </article>
+} @else {
+  <p>{{ 'blog.post-empty' | transloco }}</p>
+}

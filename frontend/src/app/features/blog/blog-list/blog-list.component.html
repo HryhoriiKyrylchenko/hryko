@@ -1,0 +1,23 @@
+<section class="blog-list">
+  <h1>{{ 'blog.title' | transloco }}</h1>
+
+  @if (posts().length === 0) {
+    <p>{{ 'blog.empty' | transloco }}</p>
+  }
+
+  @for (post of posts(); track post.id) {
+    <article class="post-card">
+      <a routerLink="/post" [queryParams]="{slug: post.slug}">
+        <h2>{{ post.title }}</h2>
+      </a>
+      <p class="excerpt">{{ post.excerpt }}</p>
+      <footer>
+        <time [dateTime]="post.date">{{ post.date }}</time>
+        <span>{{ post.readingTime }} {{ 'blog.min-read' | transloco }}</span>
+        @for (tag of post.tags; track tag) {
+          <span class="tag">{{ tag }}</span>
+        }
+      </footer>
+    </article>
+  }
+</section>

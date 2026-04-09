@@ -1,0 +1,20 @@
+[
+  {
+    "id": "moving-average-crossover",
+    "slug": "moving-average-crossover",
+    "title": "Moving Average Crossover Strategy",
+    "excerpt": "Learn how the MA crossover works, why it signals momentum shifts, and how to backtest it.",
+    "date": "2025-06-01",
+    "categories": [
+      "strategies"
+    ],
+    "tags": [
+      "moving-average",
+      "momentum",
+      "backtesting"
+    ],
+    "readingTime": 1,
+    "path": "en/strategies/moving-average-crossover.md",
+    "lang": "en"
+  }
+]

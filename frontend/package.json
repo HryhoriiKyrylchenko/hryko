@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "generate:blog": "tsx scripts/generate-blog-index.ts",
     "start": "ng serve",
     "build": "ng build",
     "build:pages": "ng build --configuration production",
@@ -33,6 +34,11 @@
     "@angular/material": "~21.2.3",
     "@angular/platform-browser": "^21.2.5",
     "@angular/router": "^21.2.5",
+    "fast-glob": "^3.3.3",
+    "front-matter": "^4.0.2",
+    "marked": "^17.0.6",
+    "ngx-markdown": "^21.2.0",
+    "reading-time": "^1.5.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },
@@ -41,7 +47,11 @@
     "@angular/cli": "^21.2.3",
     "@angular/compiler-cli": "^21.2.5",
     "@jsverse/transloco": "^8.2.1",
+    "install": "^0.13.0",
     "jsdom": "^27.1.0",
+    "npm": "^11.12.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"
   }

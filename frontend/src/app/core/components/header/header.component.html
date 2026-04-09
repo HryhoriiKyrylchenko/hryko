@@ -23,11 +23,11 @@
         </button>
 
           <div class="dropdown">
-            <a routerLink="/topics/strategies">{{ 'header.nav.topics.strategies' | transloco }}</a>
-            <a routerLink="/topics/concepts">{{ 'header.nav.topics.concepts' | transloco }}</a>
-            <a routerLink="/topics/risk-management">{{ 'header.nav.topics.risk-management' | transloco }}</a>
-            <a routerLink="/topics/tools">{{ 'header.nav.topics.tools' | transloco }}</a>
-            <a routerLink="/topics/market-analysis">{{ 'header.nav.topics.market-analysis' | transloco }}</a>
+            <a routerLink="/blog" [queryParams]="{category: 'strategies'}">{{ 'header.nav.topics.strategies' | transloco }}</a>
+            <a routerLink="/blog" [queryParams]="{category: 'concepts'}">{{ 'header.nav.topics.concepts' | transloco }}</a>
+            <a routerLink="/blog" [queryParams]="{category: 'risk-management'}">{{ 'header.nav.topics.risk-management' | transloco }}</a>
+            <a routerLink="/blog" [queryParams]="{category: 'tools'}">{{ 'header.nav.topics.tools' | transloco }}</a>
+            <a routerLink="/blog" [queryParams]="{category: 'market-analysis'}">{{ 'header.nav.topics.market-analysis' | transloco }}</a>
           </div>
       </div>
 
@@ -57,26 +57,26 @@
 
   @if (mobileMenuOpen) {
     <div class="mobile-menu">
-      <a routerLink="/blog" (click)="closeMenus()">Blog</a>
+      <a routerLink="/blog" (click)="closeMenus()">{{ 'header.nav.blog' | transloco }}</a>
 
       <div class="mobile-topics">
         <button class="mobile-topics-button" (click)="toggleTopics()">
-          Topics
+          {{ 'header.nav.topics.button' | transloco }}
         </button>
 
         @if (topicsOpen) {
           <div class="mobile-dropdown">
-            <a routerLink="/topics/strategies">Strategies</a>
-            <a routerLink="/topics/concepts">Concepts</a>
-            <a routerLink="/topics/risk-management">Risk</a>
-            <a routerLink="/topics/tools">Tools</a>
-            <a routerLink="/topics/market-analysis">Analysis</a>
+            <a routerLink="/blog" [queryParams]="{category: 'strategies'}">{{ 'header.nav.topics.strategies' | transloco }}</a>
+            <a routerLink="/blog" [queryParams]="{category: 'concepts'}">{{ 'header.nav.topics.concepts' | transloco }}</a>
+            <a routerLink="/blog" [queryParams]="{category: 'risk-management'}">{{ 'header.nav.topics.risk-management' | transloco }}</a>
+            <a routerLink="/blog" [queryParams]="{category: 'tools'}">{{ 'header.nav.topics.tools' | transloco }}</a>
+            <a routerLink="/blog" [queryParams]="{category: 'market-analysis'}">{{ 'header.nav.topics.market-analysis' | transloco }}</a>
           </div>
         }
       </div>
 
-      <a routerLink="/about" (click)="closeMenus()">About</a>
-      <a routerLink="/help" (click)="closeMenus()">Help</a>
+      <a routerLink="/about" (click)="closeMenus()">{{ 'header.nav.about' | transloco }}</a>
+      <a routerLink="/help" (click)="closeMenus()">{{ 'header.nav.help' | transloco }}</a>
     </div>
   }
 </header>
